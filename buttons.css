@@ -1,0 +1,42 @@
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainbutton {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1C1C1C; 
+  border-radius: 2px;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: background-color 1s ease, transform 0.5s ease, opacity 0.5s ease;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.steam:hover {
+  background-color: #1b2838;
+}
+.discord:hover {
+  background-color: #7289DA;
+}
+
+.youtube:hover {
+  background-color: #c4302b;
+}
+
+.discords:hover {
+  background-color: #7289DA;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
